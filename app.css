@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;1,200;1,300;1,400;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    border-bottom: 3px solid #F75C29;
+}
+
+.btn {
+  appearance: none ;
+  background: linear-gradient(180deg, rgba(247,92,41,1) 0%, rgba(200,56,9,1) 100%) !important;
+  border: 1px solid rgba(27, 31, 35, .15) !important;
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nav-item{
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.navbar-nav{
+color: #040A6E;
+}
+
+.nav-link{
+    color: #005CDE !important;;
+}
+
+/* Careers CSS */
+
+h2{
+    margin-top: 110px !important;
+    font-weight:bold !important;
+}
+
+.card-first{
+    margin-top: 120px !important;
+}
+
+.careers{
+    margin-bottom: 10rem;
+}
+
+.card{
+    margin: 60px 330px 0 330px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+}
+
+h5{
+    font-weight: 900 !important;
+    padding-bottom: 15px;
+}
+
+.card-body{
+    padding: 45px !important;
+}
+
+/* Footer Css */
+.container1{
+    border-top: 3px solid #F75C29;
+}
+
+.row{
+ flex-wrap: nowrap !important;
+ flex-shrink: 1;
+}
+
+.text-black{
+    text-decoration: none;
+}
+
+h6{
+    font-weight: bold !important;
+    margin-top: 30px !important;
+}
+
+.footer-heading{
+    color: #005CDE;
+    font-size: 1.2rem;
+    font-weight:bold !important;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 70px !important;
+}
+
+.certify{
+    width: 106px;
+    margin-left: -24px;
+    margin-bottom: 0.5rem;
+    font-weight: 550;
+    line-height: 1.2;
+}
+
+.secure{
+    margin-top: 85px !important;
+    font-weight: 550;
+    line-height: 1.2;
+}
+
+.secure1{
+    margin-left: 66px;
+}
+
+.support{
+    margin-top: 85px !important;
+}
+
+.quick{
+    margin-top: 30px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between !important;
+    color: white;
+}
+
+/* Login Css */
+.content {
+    overflow: hidden !important;
+}
+.main{
+    position: relative;
+    left: 7rem ;
+    overflow: hidden !important;
+}
+
+.main span{
+    color: #005CDE !important;
+    font-weight: bold;
+}
+
+.hand{
+    display: flex;
+}
+
+.hand p {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.main svg {
+    color: rgb(247, 92, 41);;
+}
+
+.services svg{
+    color: black;
+    background-color: #d3eaf2;
+    width: 125px;
+    border-radius: 5%;
+}
+
+.services{
+    margin-left: 70px;
+}
+
+.services p{
+    font-weight: 600;
+    color: #005CDE;
+    margin-top: 7px;
+}
+
+.mar{
+    margin-top: 40px;
+}
+
+.main-service{
+    display: flex;
+    margin-top: 40px;
+    height: 15rem;
+}
+
+/* register css */
+
+form { 
+    margin: 0px 10px; 
+}
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 2.5rem;
+}
+
+.container { 
+    max-width: 360px; 
+}
+
+.divider {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0px;
+  width: 35%;
+}
+
+.left { 
+    float: left; 
+}
+
+.right { 
+    float: right; 
+}
+
+/* .form-control{
+    width: 24% !important;
+} */
+
+.register{
+    position: relative;
+    left: 8rem;
+    bottom: 28rem;
+}
+
+.form-group h2{
+    color: #005CDE;
+    margin-bottom: 2.5rem;
+}
+
+#signupSubmit a{
+    text-decoration: none !important;
+    color: #d3eaf2;
+}
+.form-group{
+    margin-bottom: 1.3rem;
+}
+
+.cl{
+    color: #005CDE;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1550px) {
+    .container-fluid img{
+        position: relative;
+        display: flex;
+        left: -5rem;
+        width: 10rem;
+    }
+
+    .navbar-toggler{
+        /* visibility: hidden; */
+    }
+
+    .main{
+        position: unset;
+        margin-left: 20rem;
+    }
+
+    .main-service{
+        display: flex;
+        margin-top: 40px;
+        width: 35rem ;
+    }
+
+    .services svg{
+        color: black;
+        background-color: #d3eaf2;
+        width: 130px;
+        border-radius: 5%;
+    }
+    
+    .services{
+        margin-left: 50px;
+    }
+
+    .register{
+        position: unset;
+        margin-top: 10rem;
+        width: 70rem;
+        margin-left: -34rem;
+        
+    }
+
+    .first-column{
+        grid-row: 2 / -1;
+    }
+
+    .col-md-4{
+        position: relative;
+        left: -45rem;
+        top: 25rem;
+    }
+
+    .last-footer{
+    position: relative;
+    top: 27rem;
+    }
+
+}
+
+@media screen and (max-width: 900px) {  
+    .card{
+        margin:60px 168px 0 173px;
+        border: none !important;
+        box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+    }
+}
+
+@media screen and (max-width: 760px) {  
+    .second-footer{
+        position: relative;
+        left: -90rem;
+        top: 25rem;
+    }
+
+    .last-footer{
+    position: relative;
+    top: 27rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container-fluid img{
+        position: relative;
+        display: flex;
+        left: -5rem;
+       width: 4rem;
+    }
+    .col-md-4{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .last-footer{
+    position: relative;
+    top: 27rem;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .main{
+        position: unset;
+        margin-left: 25px;
+    }
+
+    .main-service{
+        display: flex;
+        margin-top: 40px;
+        width: 30px !important;
+    }
+
+    .services svg{
+        color: black;
+        background-color: #d3eaf2;
+        width: 80px;
+        border-radius: 5%;
+    }
+    
+    .services{
+        margin-left: 30px;
+    }
+
+    .register{
+        position: unset;
+        margin-top: 10rem;
+        width: 40rem;
+        margin-left: -17rem;
+    }
+
+       .col-md-4{
+        position: relative;
+        left: -60rem;
+        top: 25rem;
+    }
+
+    .last-footer{
+    position: relative;
+    top: 52rem;
+    }
+
+    .card{
+        margin: 60px 60px 0 20px;
+        border: none !important;
+        box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+    }
+
+    .card-text{
+        font-size: 12px !important;
+    }
+    .card-title{
+        font-size: 18px !important;
+    }
+
+    .careers h2{
+        margin-left: -5rem;
+    }
+
+    .navbar-toggler{
+        position: relative;
+    left: 3.4rem;
+    }
+    .navbar-toggler-icon{
+        position: relative;
+        left: 1px;
+        width: 25px !important;
+    }
+    .copyright  {
+        font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: -6px;
+    }
+    .copyright img {
+        width: 20px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 55rem
+    }
+
+    
+    .footer-heading2{
+        position: relative;
+        left: 5rem;
+        bottom: 5px;
+        top: 9rem;
+        height: 30px;
+    }
+    .certify {
+        position: relative;
+        left: -11rem;
+        top: 18rem;
+        height: 40px;
+    }
+    .certify-img{
+        position: relative;
+        left: -14.5rem;
+        top: 22rem;
+        width: 40px !important;
+        height: 40px !important;
+        margin-bottom: 0px;
+    }
+
+    .images{
+        position: relative;
+        left: -4rem;
+        top: 15rem;
+        margin-left: 3px;
+    }
+    .icons img{
+        width: 25px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    .imp-link{
+        position: relative;
+        top: 31rem;
+        left: -42rem;
+    }
+
+    .secure1 {
+        margin-left: 20px;
+    }
+}
+
+
