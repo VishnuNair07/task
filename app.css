@@ -130,14 +130,14 @@ h6{
 }
 
 /* Login Css */
-.content {
-    overflow: hidden !important;
+.content{
+    overflow-x: hidden;
 }
 .main{
     position: relative;
     left: 7rem ;
-    overflow: hidden !important;
 }
+
 
 .main span{
     color: #005CDE !important;
